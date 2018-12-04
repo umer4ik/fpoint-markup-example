@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Widget</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <style>
+    html {
+      font-size: 62.5%;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+  </style>
+  <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+  <div style="padding: 3rem ">
+    <h1>In parent widget, width 300px</h1>
+    <div style=" max-width: 300px;">
+      <div class="w">
+          <h4 class="w-title">
+            Widget title
+          </h4>
+          <div class="w-description">
+            Widget description Lorem ipsum dolor sit amet.
+          </div>
+          <div class="w-footer">
+            <button class="w-btn w-btn-link">Visit page</button>
+            <button class="w-btn w-btn-default">Hide</button>
+          </div>
+        </div>
+    </div>
+    <h1>In parent full width</h1>
+    <div>
+        <div class="w">
+            <h4 class="w-title">
+              Widget title
+            </h4>
+            <div class="w-description">
+              Widget description Lorem ipsum dolor sit amet.
+            </div>
+            <div class="w-footer">
+              <button class="w-btn w-btn-link">Visit page</button>
+              <button class="w-btn w-btn-default">Hide</button>
+            </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.w {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+  padding: 1rem;
+  width: 100%;
+}
+.w-title {
+  color: #ff00ff;
+  font-size: 3rem;
+  margin: .75rem 0;
+}
+.w-description {
+  color: #0000ff;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+.w-footer {
+  padding: 0.5rem 0;
+  border-top: 1px solid #ccc;
+  text-align: right;
+  font-size: 1.5rem;
+}
+.w-btn {
+  border: 1px solid #ff00ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1.5rem;
+  height: 3rem;
+  color: #ff00ff;
+}
